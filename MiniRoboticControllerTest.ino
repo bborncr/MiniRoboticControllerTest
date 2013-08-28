@@ -12,6 +12,8 @@
  Once the command is given the motors will execute the command until told
  to do otherwise.
  
+ The battery level can be monitored on pin A7 using analogRead(A7);
+ 
  */
 
 #define left_direction 7
